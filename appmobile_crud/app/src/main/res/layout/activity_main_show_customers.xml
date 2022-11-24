@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <TableRow
+            android:id="@+id/tbRowCustomers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textCardIdCustomer"
+                android:layout_width="26dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="ID"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textNameCustomer"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Name Customer"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textEmailCustomer"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Email"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textPhoneCustomer"
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Phone"
+                android:textSize="12sp" />
+        </TableRow>
+    </TableRow>

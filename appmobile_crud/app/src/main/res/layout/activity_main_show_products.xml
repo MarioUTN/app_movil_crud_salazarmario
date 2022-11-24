@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableRow
+            android:id="@+id/tbRowProducts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textCode"
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:text="CODE"
+                android:textAlignment="inherit" />
+
+            <TextView
+                android:id="@+id/textNameProduct"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:text="Name Product" />
+
+            <TextView
+                android:id="@+id/textQuantityProduct"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text="Quantity"
+                android:textAlignment="inherit" />
+
+            <TextView
+                android:id="@+id/textPriceProduct"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textAlignment="textEnd" />
+        </TableRow>
+    </TableRow>
